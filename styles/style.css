@@ -1,0 +1,30 @@
+body{
+    font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.link{
+    color: #e5e7eb;
+    text-decoration: none;
+}
