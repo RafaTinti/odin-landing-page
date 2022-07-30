@@ -2,15 +2,19 @@ body{
     font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .hero{
     background-color: #1f2937;
+    padding: 0px 100px 100px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .header-logo{
@@ -25,6 +29,149 @@ body{
 }
 
 .link{
+    font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.h-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.h-left{
+    /* display: flex;
+    flex-direction: column; */
+    width: 50%;
+}
+.main-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.image{
+    width: 50%;
+    height: 231px;
+    background-color: #e5e7eb;
+    
+}
+
+.cat{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 20%;
+}
+.header-txt{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 50px;
+    margin: 10px 0px;
+}
+
+.top-button{
+    border-radius: 7px;
+    border: none;
+    padding: 5px 30px;
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.h-info{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 50px 0px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box-container{
+    width: 150px;
+}
+.box{
+    border: solid #3882f6;
+    border-radius: 1em;
+    border-width: 4px;
+    width: 150px;
+    height: 150px;
+}
+.txt-under-box{
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-box{
+    background-color: #e5e7eb;
+    padding: 80px 250px 50px;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.q-from{
+    text-align: end;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+}
+.call{
+    
+    padding: 75px 150px;
+}
+
+.call-box{
+    padding: 20px 100px;
+    background-color: #3882f6;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-h2{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.bottom-button{
+    border-radius: 7px;
+    border: #f9faf8 solid;
+    padding: 5px 30px;
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.footer{
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
